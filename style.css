@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid: auto auto auto auto / auto auto auto auto;
+    color:white;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;   
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-pink{
+    background-color: pink;
+}
+.align-center{
+    display: grid;
+    place-items: center; 
+}
+.column-span{
+    grid-column: span 2;
+}
+.row-span{
+    grid-row: span 2;
+}
